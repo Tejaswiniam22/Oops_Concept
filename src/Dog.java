@@ -9,7 +9,7 @@ public class Dog extends Animal{
         super(name);
     }
 
-    public void makenoise(){
+    public void makeNoise(){
         System.out.println("This is cat making meow");
     }
 

@@ -8,8 +8,7 @@ public class Cat extends Animal{
     public Cat(String name){
         super(name);
     }
-
-    public void makenoise(){
+    public void makeNoise(){
         System.out.println("This is cat making meow");
     }
 

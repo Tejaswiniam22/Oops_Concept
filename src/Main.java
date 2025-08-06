@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-    Animal anm =new Animal();
+    /*Animal anm =new Animal();
     Animal anm1=new Animal("Horse");
     anm.setName("Cow");
     anm.getName();
@@ -12,7 +12,7 @@ public class Main {
     anm.eat();
     anm.sleep();
     anm.makeNoise();
-    anm.roam();
+    anm.roam();*/
 
     Animal c=new Cat("Billi");
     c.makeNoise();
@@ -20,6 +20,9 @@ public class Main {
     Cat ci=(Cat)c;
     ci.jump();
 
+
+    Animal bat=new Bat("Bat ");
+    bat.makeNoise();
      /*   Address addr=new Address("Bengaluru","karnataka", 560042);
         Person p= new Person("tejaswini", 22, addr);
         p.displayInfo();

@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private String name;
 
 
@@ -19,9 +19,7 @@ public class Animal {
     public void eat(){
         System.out.println("Eat is called");
     }
-    public void makeNoise(){
-        System.out.println("Dog is making noise");
-    }
+    public abstract void makeNoise();
     public void sleep()
     {
         System.out.println("Dog is sleeping");
