@@ -12,6 +12,11 @@ public class Bird extends Animal{
         super(name);
     }
 
+    public void fly()
+    {
+        System.out.println(getName()+ "Fly");
+    }
+
     @Override
     public void eat() {
         super.eat();

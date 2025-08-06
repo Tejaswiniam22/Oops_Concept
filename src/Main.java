@@ -23,6 +23,14 @@ public class Main {
 
     Animal bat=new Bat("Bat ");
     bat.makeNoise();
+
+    Animal bird = new Bird("New bird");
+    Animal parrot=new Parrot("Parrot");
+    Parrot pi=(Parrot)parrot;
+    pi.fly();
+
+    Bird ost=new Ostrich("Ostrich");
+    ost.fly();
      /*   Address addr=new Address("Bengaluru","karnataka", 560042);
         Person p= new Person("tejaswini", 22, addr);
         p.displayInfo();
