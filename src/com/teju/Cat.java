@@ -1,3 +1,5 @@
+package com.teju;
+
 public class Cat extends Animal{
     String name;
 

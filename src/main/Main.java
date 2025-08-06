@@ -1,11 +1,15 @@
-import java.sql.SQLOutput;
+package main;
+
+
+import com.teju.*;
+import utils.AnimalUtils;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-    /*Animal anm =new Animal();
-    Animal anm1=new Animal("Horse");
+    /*com.teju.Animal anm =new com.teju.Animal();
+    com.teju.Animal anm1=new com.teju.Animal("Horse");
     anm.setName("Cow");
     anm.getName();
         System.out.println("This is" +anm.getName());
@@ -21,27 +25,27 @@ public class Main {
     ci.jump();
 
 
-    Animal bat=new Bat("Bat ");
+    Animal bat=new Bat("com.teju.Bat ");
     bat.makeNoise();
 
     Animal bird = new Bird("New bird");
-    Animal parrot=new Parrot("Parrot");
+    Animal parrot=new Parrot("com.teju.Parrot");
     Parrot pi=(Parrot)parrot;
     pi.fly();
 
-    Bird ost=new Ostrich("Ostrich");
+    Bird ost=new Ostrich("com.teju.Ostrich");
     ost.fly();
-     /*   Address addr=new Address("Bengaluru","karnataka", 560042);
-        Person p= new Person("tejaswini", 22, addr);
+     /*   com.teju.Address addr=new com.teju.Address("Bengaluru","karnataka", 560042);
+        com.teju.Person p= new com.teju.Person("tejaswini", 22, addr);
         p.displayInfo();
 
 
-        Employee emp=new Employee("teju", 22, addr,1,"manager",124.5f );
+        com.teju.Employee emp=new com.teju.Employee("teju", 22, addr,1,"manager",124.5f );
         emp.displayInfo();
         emp.applyForLeave();
 
 
-        Student stu =new Student("Rahul", 22, addr,25, "B");
+        com.teju.Student stu =new com.teju.Student("Rahul", 22, addr,25, "B");
         stu.displayInfo();*/
 
         int sum=0;

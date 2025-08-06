@@ -1,6 +1,10 @@
+package utils;
+import com.teju.Animal;
+import com.teju.Cat;
+import com.teju.Dog;
 public class AnimalUtils {
     public void addAnimal(Animal animal){
-        System.out.println("Animal added -" +animal.getName());
+        System.out.println("com.teju.Animal added -" +animal.getName());
         animal.makeNoise();
 
         if(animal instanceof Cat){

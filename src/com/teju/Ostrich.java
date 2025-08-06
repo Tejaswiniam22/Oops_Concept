@@ -1,20 +1,21 @@
-public class Bird extends Animal{
+package com.teju;
+
+public class Ostrich extends Bird{
+    public Ostrich() {
+    }
+
+    public Ostrich(String name) {
+        super(name);
+    }
+
     @Override
     public void setName(String name) {
         super.setName(name);
     }
 
-    public Bird() {
-        super();
-    }
-
-    public Bird(String name) {
-        super(name);
-    }
-
-    public void fly()
-    {
-        System.out.println(getName()+ "Fly");
+    @Override
+    public void fly() {
+        System.out.println(getName()+ " This cannot fly");
     }
 
     @Override
@@ -24,7 +25,7 @@ public class Bird extends Animal{
 
     @Override
     public void makeNoise() {
-        System.out.println(getName()+ "is making  noise");
+        super.makeNoise();
     }
 
     @Override

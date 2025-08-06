@@ -1,3 +1,5 @@
+package com.teju;
+
 public class Student extends Person{
     private int roll_no;
     private String grade;

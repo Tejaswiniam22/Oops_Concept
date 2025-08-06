@@ -1,3 +1,5 @@
+package com.teju;
+
 public abstract class Animal {
     private String name;
 
@@ -22,7 +24,7 @@ public abstract class Animal {
     public abstract void makeNoise();
     public void sleep()
     {
-        System.out.println("Dog is sleeping");
+        System.out.println("com.teju.Dog is sleeping");
     }
     public void roam(){
         System.out.println("Roaming!");

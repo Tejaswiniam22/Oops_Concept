@@ -1,3 +1,5 @@
+package com.teju;
+
 public class Employee extends Person{
     private int empCode;
     private String designation;
@@ -47,7 +49,7 @@ public class Employee extends Person{
 
     public void displayInfo(){
         super.displayInfo();
-        System.out.println("Employee code:" +empCode);
+        System.out.println("com.teju.Employee code:" +empCode);
         System.out.println("Designation:" +designation);
         System.out.println("salary:" +salary);
     }
