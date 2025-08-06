@@ -1,6 +1,7 @@
 public class Animal {
     private String name;
 
+
     public String getName() {
         return name;
     }
@@ -13,7 +14,7 @@ public class Animal {
         System.out.println("This is non parameterized constuctor");
     }
     public Animal(String name){
-        System.out.println("This is a parameterized constructor");
+        this.name=name;
     }
     public void eat(){
         System.out.println("Eat is called");
