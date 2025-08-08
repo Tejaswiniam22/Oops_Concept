@@ -1,6 +1,6 @@
 package com.teju;
 
-public class Parrot extends Bird{
+public class Parrot extends Bird implements Flayble{
     public Parrot() {
     }
 
@@ -32,6 +32,17 @@ public class Parrot extends Bird{
     public void fly() {
         System.out.println(getName()+ " This can fly");
     }
+
+    public void willfly(){
+        System.out.println("This flies");
+    }
+
+public void flyy(){
+    Flayble f = () -> System.out.println("This is a good expression");
+    f.willfly();
+}
+
+
 
     @Override
     public String getName() {

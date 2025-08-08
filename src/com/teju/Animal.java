@@ -24,7 +24,7 @@ public abstract class Animal {
     public abstract void makeNoise();
     public void sleep()
     {
-        System.out.println("com.teju.Dog is sleeping");
+        System.out.println("Dog is sleeping");
     }
     public void roam(){
         System.out.println("Roaming!");
